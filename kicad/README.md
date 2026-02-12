@@ -10,3 +10,10 @@ I recommend using the fabrication toolkit plugin to generate the gerber files. Y
 
 As for where to order, I recommend [JLCPCB](https://jlcpcb.com). <br />
 This board doesn't require any special settings, just upload the gerber and let it figure it out for you. (For reference, the board dimensions are 185mm*40mm).
+
+# Additional Images
+### PCB
+![pcb](2-pcb.png)
+
+### Schematic
+![schematic](3-schematic.png)
