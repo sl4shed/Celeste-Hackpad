@@ -3079,11 +3079,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 55.88 0)
+			(at 139.7 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4183,6 +4184,72 @@
 			(project "hackpad"
 				(path "/8cc8e1e0-0eac-4a45-9b28-ed9a31e45994"
 					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80f5f0f3-3a00-4a87-8e4a-b0df7688dea8")
+		(property "Reference" "#PWR04"
+			(at 49.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d040072-e28e-42ea-91f8-71ad33942e12")
+		)
+		(instances
+			(project ""
+				(path "/8cc8e1e0-0eac-4a45-9b28-ed9a31e45994"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6240,72 +6307,6 @@
 			(project "hackpad"
 				(path "/8cc8e1e0-0eac-4a45-9b28-ed9a31e45994"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 49.53 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df4b0032-1f65-4be4-a797-64061f680168")
-		(property "Reference" "#PWR04"
-			(at 49.53 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 49.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb3daf5d-c114-4c1b-962d-99dbc7942748")
-		)
-		(instances
-			(project "hackpad"
-				(path "/8cc8e1e0-0eac-4a45-9b28-ed9a31e45994"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
