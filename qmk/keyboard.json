@@ -21,8 +21,11 @@
     "url": "https://github.com/sl4shed/celeste-hackpad",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x6283",
+        "pid": "0x6767",
         "vid": "0xFEED"
+    },
+    "bootmagic": {
+        "matrix": [0, 1]
     },
     "layouts": {
         "LAYOUT": {
