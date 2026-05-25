@@ -19,3 +19,7 @@ I split this up into multiple readmes for simplicity. Feel free to look around t
 # Attribution
 
 I used some of the code in [nwii/oledbongocat](https://github.com/nwii/oledbongocat) for my firmware.
+
+# Finished Build
+
+<img width="2000" height="1506" alt="image" src="https://github.com/user-attachments/assets/7223f0e1-04a8-4d1f-946e-6a8907f37fef" />
